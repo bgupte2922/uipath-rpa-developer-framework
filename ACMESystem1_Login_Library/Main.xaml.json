@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME Login",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_Password",
+      "DisplayName": "in_Password",
+      "Category": null,
+      "Tooltip": "ACME Password",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Email",
+      "DisplayName": "in_Email",
+      "Category": null,
+      "Tooltip": "ACME Email",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Url",
+      "DisplayName": "in_Url",
+      "Category": null,
+      "Tooltip": "ACME Url",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

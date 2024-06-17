@@ -1,0 +1,14 @@
+﻿{
+  "Id": "mf0FOE1e-UO76MZ0iY98iA",
+  "Reference": "SC1K4f08REig8fg_-An_Ww/mf0FOE1e-UO76MZ0iY98iA",
+  "ParentRef": "SC1K4f08REig8fg_-An_Ww/_erDa5UgOkWhpJ8kum8N1g",
+  "Name": "Type Into OnUsCheck",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2020-10-14T06:51:49.0179432Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-14T06:51:49.0179432Z"
+}

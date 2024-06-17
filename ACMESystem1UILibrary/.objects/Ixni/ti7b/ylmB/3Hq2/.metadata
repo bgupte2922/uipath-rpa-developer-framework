@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Invoices",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3Hq23uNTzU-izCB4hkqWtQ",
+  "Reference": "Rj6gTDj0bk-ox9yMJ04brA/3Hq23uNTzU-izCB4hkqWtQ",
+  "ParentRef": "Rj6gTDj0bk-ox9yMJ04brA/ylmByl0iYUOvHSsYPKlouQ",
+  "Created": "2024-01-31T20:40:30.8718278Z",
+  "Updated": "2024-01-31T20:40:30.8718278Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

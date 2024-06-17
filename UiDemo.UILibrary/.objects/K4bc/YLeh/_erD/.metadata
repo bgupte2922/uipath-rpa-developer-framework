@@ -1,0 +1,14 @@
+﻿{
+  "Id": "_erDa5UgOkWhpJ8kum8N1g",
+  "Reference": "SC1K4f08REig8fg_-An_Ww/_erDa5UgOkWhpJ8kum8N1g",
+  "ParentRef": "SC1K4f08REig8fg_-An_Ww/YLeh0Fe2Z065onTYgzbZDw",
+  "Name": "Use Application DoubleUI",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2020-10-14T06:51:48.7819367Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-14T06:51:48.7819367Z"
+}

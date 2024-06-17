@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="agv4FM2Yn0au-Cl06O0hBg" DesignTimeRectangle="333, 247, 120, 23" ElementType="InputBox" FriendlyName="'editable text  notonustb'" FullSelectorArgument="&lt;ctrl automationid='notonustb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='notonustb' role='editable text' /&gt;" Reference="KDqmhNBJF0mXjbJ47qT15A/m6-7_SH9M0qHiHgdwB48DQ" ScopeSelectorArgument="&lt;wnd app='uidouble.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="198, 244, 119, 26" ElementType="Text" FriendlyName="'Not On Us Check'" FullSelectorArgument="&lt;ctrl name='Not On Us Check' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Not On Us Check' role='text' automationid='' check:text='Not On Us Check' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Not On Us Check" TextMethod="AttributeText" TextSelector="&lt;ctrl role='text' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1OeAQrfCRDEyB-jwKcmZoyw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0CE67__cOkkm0tjhDj2BgoQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1d2d0e5cacddce3e7f69264b0b264386.png" xmlns="">0fCY6Vrs4_0K6pME9h6sQcA</imageRef>
+</TargetAnchorable>

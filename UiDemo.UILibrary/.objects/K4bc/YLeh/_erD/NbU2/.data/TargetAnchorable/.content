@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="kEYaT4rlT0apnYz3A6D9DQ" DesignTimeRectangle="518, 126, 47, 16" ElementType="Text" FriendlyName="'267535'" FullSelectorArgument="&lt;ctrl automationid='transnrlabel' /&gt;&lt;ctrl role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='transnrlabel' /&gt;&lt;ctrl role='text' automationid='' /&gt;" ScopeSelectorArgument="&lt;wnd app='uidouble.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector" Text="267535" TextMethod="AttributeText" TextSelector="&lt;ctrl role='text' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0Otf7P34yb0-tAuRKJyI8tw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b0c7460c9fef4387e59966c460fccc73.png" xmlns="">0Ad0Qf3ssOkCShUFU6EFMww</imageRef>
+</TargetAnchorable>

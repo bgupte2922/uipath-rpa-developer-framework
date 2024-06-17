@@ -1,0 +1,14 @@
+﻿{
+  "Id": "MZwKoTareEevakgbE02TWA",
+  "Reference": "KDqmhNBJF0mXjbJ47qT15A/MZwKoTareEevakgbE02TWA",
+  "ParentRef": "KDqmhNBJF0mXjbJ47qT15A/XC_5wY4yEkielY8Z1zgZgA",
+  "Name": "Click 'Accept'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2024-02-01T15:58:33.9558991Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-02-01T15:58:33.9558991Z"
+}

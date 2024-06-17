@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp ContentHash="WOJ1SjbVXUy0VCqgccvPJg" FilePath="C:\Users\silviu.predan\OneDrive - UiPath\Demo\uidouble.exe" Reference="KDqmhNBJF0mXjbJ47qT15A/_erDa5UgOkWhpJ8kum8N1g" Selector="&lt;wnd app='uidouble.exe' cls='HwndWrapper*' title='DoubleUI'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0McvzSeJnC0-WsDSMse-79w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5300bff8bf2bd2953405952027e9f4ac.png" xmlns="">09h-k0aanfEir1HymK8DXCA</imageRef>
+</TargetApp>

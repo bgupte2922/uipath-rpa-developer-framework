@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Internal Invoices",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "D05EiDA2T0ebp97ezxjTJQ",
+  "Reference": "Rj6gTDj0bk-ox9yMJ04brA/D05EiDA2T0ebp97ezxjTJQ",
+  "ParentRef": "Rj6gTDj0bk-ox9yMJ04brA/ylmByl0iYUOvHSsYPKlouQ",
+  "Created": "2024-01-31T20:40:30.9486559Z",
+  "Updated": "2024-01-31T20:40:30.9486559Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

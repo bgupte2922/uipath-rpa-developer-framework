@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VWaqTCbxckWgb0DJQPgBEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://acme-test.uipath.com/employees" CvTextArea="954, 331, 75, 16" CvTextArgument="9/17/1951" CvType="Text" DesignTimeRectangle="944, 329, 274, 24" DesignTimeScaleFactor="0.8333333730697632" ElementType="Text" FriendlyName="'9/17/1951'" FullSelectorArgument="&lt;webctrl id='card_birthdate' tag='DIV' /&gt;" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl id='card_birthdate' tag='DIV' type='' class='col-md-6 value' aaname='{0}' check:innerText='{0}' /&gt;&quot;, Birthdate)]" Guid="3154eb16-7f77-4e45-a1ff-c41ddc60aa05" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARYAAAAcCAYAAACkoZCdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKGSURBVHhe7ZnBceMwDEW3J/XlmfQSd5JxGRmXkRn3YK5AUhZIgmQmgk96h3dYUoaow38LMP+ez2cAAPAEsQCAO4gFANxBLADgDmIBAHcQCwC4g1gAwB0HsTzC7WMJy7JxDffBc9fvdu/xdQnLxy089Pr3VdVsuXw9ihr3z3ZNMGvrPVWzPds9XNX+Tu8b0zmWz7u5B3AWDoolB08FN4X1Em4/1rNGIDeBdMJfskmsriPrxjsHtaMA9Dl/buGyPlvIKa9ZMrR4iQqxwMk5JBZbIjn8dbgk5NVaCnfmF2LpSksEUP1+WNuSyEqqr6QVxdTvTnaqrg2xwMk5JJYYXkMITUBX5Fn9P7/uGHp1SnJ3ZIRW3qclMa0dhdER1PqO7ZzxO6bn0l1UR6oAJ+ONYtHB7YxBmd+Ipa250RmDMn8RS5JUlsRaW9a63U8BYgEQHEahVhi6Y4hrxqiimYul3638SVpVZ/Ii38kkseR3Fr/V3Yn6Xb2PWODkvOnyVsK3i0XW6vsMzVQsOfDmJarsDYLcq23KL57b/uvSi6KrqfcRC4BwUCxClosOZTFqSNiMsUMxE0uSgN0lyN7orzaj2qluJj6TvmUolu17TXkgFgDBQSwtsWvZwjwZg4SxWEZBlr3+GCSMa1fEbmQsQcQCMOcNdyxluGZjkDAMf+8+RJiMQYJZu1Oz+J7eyDM6D2IBiLjcsejwpfFil438ezSqCEOxFGNVyRFpNevGPU76Fv3u3K30zopYACLudyxl6OajijASS+oiLLFIiGdjy7h2EsdGX177MytDaSAWAOEtdywAcG4QCwC4g1gAwB3EAgDuIBYAcAexAIA7iAUA3EEsAOAOYgEAZ57hP4Pl444/C1RxAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="954, 331, 75, 16" CvTextArgument="9/17/1951" CvType="Text" DesignTimeRectangle="954, 331, 76, 16" ElementType="Text" FriendlyName="'9/17/1951'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f23b8b8bef06014cccba9d96d2fe33b.png" xmlns="">0B8yFvYvSSESffN7zqsfJng</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="9/17/1951" Name="Birthdate" />
+    </scg:List>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

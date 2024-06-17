@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge: ACME System 1 - Employees",
+  "Type": "Screen",
+  "Id": "tqP2d5w7OkWBEIeEIjQ-zQ",
+  "Reference": "Rj6gTDj0bk-ox9yMJ04brA/tqP2d5w7OkWBEIeEIjQ-zQ",
+  "ParentRef": "Rj6gTDj0bk-ox9yMJ04brA/ti7bm9wANESwSq6o5bNxUw",
+  "Created": "2024-01-31T20:40:31.5368562Z",
+  "Updated": "2024-01-31T20:40:31.5368562Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

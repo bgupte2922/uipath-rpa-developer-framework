@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2LZZ-reNWEO4c2pIK62Bpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://acme-test.uipath.com/employees" CvTextArea="1375, 152, 45, 13" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1365, 139, 66, 42" DesignTimeScaleFactor="0.8333333730697632" ElementType="Text" FriendlyName="'Log Out'" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' check:innerText='Log Out' /&gt;" Guid="e4413d53-09d7-4248-b12c-3c99010c97bf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAuCAYAAACViW+zAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF+SURBVGhD7ZXLbYUwEEVZUgddoCdRBK8K94BLcAEs6JAt64ltfgb7oodIAlHu4khmsIfx8QDZMAxCYrK+74XEZFVVCYnJiqIQEkMxAIoBUAyAYgAUA6AYAMUAKAZAMQCKAVAMgGIAFAOgGMAlMaUy0hklZeLe91CKMp103YyWOjlvx0uJ+XQu4MFiatFWhlHlGntrK8eIeoXzEjxajC8uddJBFxgt2o71O1g34XM39UF8zLOudSKdtFHoqQ5L8ENitqddN07COG+zxndASsx+0wF+jdswEmPHj+2YfWH+2hW93wwScCBmyf0XxSynOse2bf5/xewL89dnOmbKfeYbszxjHj9RzOVvjGObw7P5K41iZnk+76PE2OI3zJv2xc3xsMhpQy7eKNgx0dwojyV4hlFqfZUmqbf9lS4Ttn/q/o38uhj/Wi0dcNQt93JvxzwYigFQDIBiABQDoBgAxQAoBkAxAIoBUAyAYgAUA6AYAMUAsjzPhcRkbdsK2dPKF8Jr94OJhcciAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1375, 152, 45, 12" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1376, 152, 44, 13" ElementType="Text" FriendlyName="'Log Out'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f4ee34ccdb268f3d1b17c07b687aced0.png" xmlns="">0JHq0MBp84ki5GZ0CZ4GkeA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

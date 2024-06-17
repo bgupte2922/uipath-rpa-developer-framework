@@ -1,0 +1,14 @@
+﻿{
+  "Id": "0DD505lto0mNL8tEMcCCsg",
+  "Reference": "SC1K4f08REig8fg_-An_Ww/0DD505lto0mNL8tEMcCCsg",
+  "ParentRef": "SC1K4f08REig8fg_-An_Ww/_erDa5UgOkWhpJ8kum8N1g",
+  "Name": "Type Into Cash In",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2020-10-14T06:51:48.9209413Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-10-14T06:51:48.9209413Z"
+}

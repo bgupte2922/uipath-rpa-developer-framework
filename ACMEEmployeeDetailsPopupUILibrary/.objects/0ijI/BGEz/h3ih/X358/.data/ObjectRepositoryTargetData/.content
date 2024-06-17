@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vy1IvNbeP0SdKIj8_fr-Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://acme-test.uipath.com/employees" CvTextArea="954, 303, 106, 16" CvTextArgument="610-789-7403" CvType="Text" DesignTimeRectangle="944, 301, 274, 24" DesignTimeScaleFactor="0.8333333730697632" ElementType="Text" FriendlyName="'610-789-7403'" FullSelectorArgument="&lt;webctrl id='card_phone' tag='DIV' /&gt;" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl id='card_phone' tag='DIV' type='' class='col-md-6 value' aaname='{0}' check:innerText='{0}' /&gt;&quot;, Phone)]" Guid="27eb2c31-0c57-4bda-bea7-22fa3ef1c0f3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARYAAAAcCAYAAACkoZCdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMBSURBVHhe7ZhNcqMwEEbnTtyLqtwlvonLx0hxjFT5DmY80DKN1N2gIMZZvMXbgH5air8nkT+Px2MEAGgJYgGA5iAWAGgOYgGA5iAWAGgOYgGA5iAWAGhOE7EMn93YdQv99W62m/i+jX3Xj7dv750a63Mo2+R8XVZz56xqydua49/H24dq013GoWiTk/fJ8caQflYdWa3Wnt6v/WYbgHdwUCwpUCo4Egj7Rz6MlykEhlhEKpev9Eza7pFLgV9XPL48+7iNd3k2h9cR4RbhXigx5Guc+qk5ZW/0OEVdSco/2i+AthwTSx4AYbrBqHAubZ/PJ/I+IgKzT32oSxnY4+ftbIkEt4qQDTHq25klt6zfXFsS5dwmF9a6DcD7OCSWSSB7AqdPblMWdlD85xFWMPeJxRTiq11dYG1JJeZ6+utQSqu4uW08VyAW+C0cEEsKR5LFMyBC9OM3xeKGxj69I9xAS43Fp5ASSSwWTxIWcd3LPMZtyBTvE9kjV7KyvjoJA5zDAbFIeLJwbv7Aq8RS+xmyJSJVs1Gjd+JPIqgQSyii1forxCK1F/sqe1f8HQDeSAOxeEF0ruRnikWkZt2YSjnI2Ks6ZU0qoLMk8r4RMq4Z8lwODcSiqBUgwFkcF4sVIDcczrs9n0L6ZBbykLlCk75lKK2wypx6DlXzPIcmm8+dS/qu9qtCLMG4C2q/zPcA/4fD/2NpIhYz4NFziyBUrriMYBtMtxbzBlLifwathVUifbxa3TVoEAv8Dg6IxQ9ReTIrTLE4AY8ElRMFzz3t1+Ka15PfePbJJxGuvcAa25bpqrYN+ewTMcB5HBLL64TUQZpkEJysniyk3xKKytN3Q0LzJ4x+L6E2/seigzn3Mz6vTOok5LWfJaL20BBGWZfs1+5aAc7joFj+kQK6EF7XIwFIgF5j7Q5o9AmykAL7wrxZpIBGbTwqZRiJSESbsG4hxXoq9gvgTBqIBQBgDWIBgOYgFgBoDmIBgOYgFgBoDmIBgOYgFgBoDmIBgOYgFgBozGP8C+f+2+g26vt6AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="954, 303, 106, 16" CvTextArgument="610-789-7403" CvType="Text" DesignTimeRectangle="954, 302, 107, 16" ElementType="Text" FriendlyName="'610-789-7403'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ecefdaf0d28a3e241a4687e4067cb74d.png" xmlns="">0aW2SyfzA_k642uoUMO2hXw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="610-789-7403" Name="Phone" />
+    </scg:List>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

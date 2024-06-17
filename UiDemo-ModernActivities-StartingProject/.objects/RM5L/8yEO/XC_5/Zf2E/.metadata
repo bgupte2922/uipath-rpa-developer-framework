@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Zf2EunepGk-vFyx4TvFrsw",
+  "Reference": "KDqmhNBJF0mXjbJ47qT15A/Zf2EunepGk-vFyx4TvFrsw",
+  "ParentRef": "KDqmhNBJF0mXjbJ47qT15A/XC_5wY4yEkielY8Z1zgZgA",
+  "Name": "Type Into 'Not On Us Check'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2024-02-01T15:56:58.0581482Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-02-01T15:56:58.0581482Z"
+}

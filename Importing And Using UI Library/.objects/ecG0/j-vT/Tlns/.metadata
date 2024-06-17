@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Employees",
+  "Type": "Screen",
+  "Id": "TlnscI47S0iACjacxw5tnA",
+  "Reference": "nsFDAVIIlEG3OEn1wq7rxw/TlnscI47S0iACjacxw5tnA",
+  "ParentRef": "nsFDAVIIlEG3OEn1wq7rxw/j-vTkowlOE2h7Eh6AEgBuw",
+  "Created": "2024-01-31T22:34:32.763579Z",
+  "Updated": "2024-01-31T22:34:41.4961832Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="wdM4FonjFkmRG2J-8JaD0w" DesignTimeRectangle="441, 546, 80, 31" ElementType="Button" FriendlyName="'Accept'" FullSelectorArgument="&lt;ctrl name='Accept' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' automationid='' check:text='Accept' /&gt;" ScopeSelectorArgument="&lt;wnd app='uidouble.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Accept" TextMethod="AttributeText" TextSelector="&lt;ctrl role='push button' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="463, 555, 36, 13" ElementType="Text" FriendlyName="'Accept'" FullSelectorArgument="&lt;ctrl name='Accept' role='push button' /&gt;&lt;ctrl name='Accept' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' /&gt;&lt;ctrl name='Accept' role='text' automationid='' check:text='Accept' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Accept" TextMethod="AttributeText" TextSelector="&lt;ctrl role='text' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1NO3KPRZaZ0CgPOJw_MLxKQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0plsr0kRHPU6S8wxzboXLAA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="79e8bf91e33fa7512c0e9a7844b899da.png" xmlns="">0JTYwYljTFkW0iHARGJf12w</imageRef>
+</TargetAnchorable>

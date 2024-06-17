@@ -1,0 +1,318 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System.Text.RegularExpressions" xmlns:this="clr-namespace:" xmlns:uasc="clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umam="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamf="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Filters;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamt="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Triggers;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umm="clr-namespace:UiPath.MicrosoftOffice365.Models;assembly=UiPath.MicrosoftOffice365" xmlns:ummm="clr-namespace:UiPath.MicrosoftOffice365.Mail.Models;assembly=UiPath.MicrosoftOffice365" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="UiPathEventConnector" Type="InArgument(x:String)" />
+    <x:Property Name="UiPathEvent" Type="InArgument(x:String)" />
+    <x:Property Name="UiPathEventObjectType" Type="InArgument(x:String)" />
+    <x:Property Name="UiPathEventObjectId" Type="InArgument(x:String)" />
+    <x:Property Name="UiPathAdditionalEventData" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:Main.UiPathEventConnector>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.UiPathEventConnector>
+  <this:Main.UiPathEvent>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.UiPathEvent>
+  <this:Main.UiPathEventObjectType>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.UiPathEventObjectType>
+  <this:Main.UiPathEventObjectId>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.UiPathEventObjectId>
+  <this:Main.UiPathAdditionalEventData>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.UiPathAdditionalEventData>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>818.4,3070.4</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Filters</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Mail.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Filters</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Models</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Services.Graph.Mail.Models</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Utilities</x:String>
+      <x:String>UiPath.Shared.Activities.Triggers</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Triggers</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Mail.Models</x:String>
+      <x:String>UiPath.Activities.System.Collections</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="694.4,3005.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="umm:Office365Message" Name="receivedEmail" />
+      <Variable x:TypeArguments="x:String" Name="AuditLog" />
+      <Variable x:TypeArguments="scg:List(upr:IResource)" Name="Attachments">
+        <Variable.Default>
+          <VisualBasicValue x:TypeArguments="scg:List(upr:IResource)" ExpressionText="New List(Of IResource)" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="AuditFilePath" />
+      <Variable x:TypeArguments="upr:ILocalResource" Name="AuditFile" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <umamt:NewEmailReceived ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" JobData="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" BrowserFolderId="AQMkADAwATM0MDAAMS02NgBkMS0yMTU4LTAwAi0wMAoALgAAA7AimbGZAkBAAK8He9PS4sDZAQBfe73Y0qUNRK3_rgpzPwaiAAACAQwAAAA=" BrowserFolderName="Inbox" ConnectionId="50169fa6-d19d-4953-8674-b7a8781e879b" DisplayName="Monitor Incident Request Emails" FilterExpression="(parentFolderId=='AQMkADAwATM0MDAAMS02NgBkMS0yMTU4LTAwAi0wMAoALgAAA7AimbGZAkBAAK8He9PS4sDZAQBfe73Y0qUNRK3_rgpzPwaiAAACAQwAAAA=')&amp;&amp;((contains(subject,'Incident Request')))" sap:VirtualizedContainerService.HintSize="632,225.6" sap2010:WorkflowViewState.IdRef="NewEmailReceived_1" IncludeAttachments="False" MarkAsRead="False" Result="[receivedEmail]" UiPathEvent="[UiPathEvent]" UiPathEventConnector="[UiPathEventConnector]" UiPathEventObjectId="[UiPathEventObjectId]" UiPathEventObjectType="[UiPathEventObjectType]" UseConnectionService="True" WithAttachmentsOnly="False">
+      <umamt:NewEmailReceived.Filter>
+        <umamf:TriggerMailFilterCollection LogicalOperator="And">
+          <umamf:TriggerMailFilterCollection.Filters>
+            <umamf:TriggerMailFilterElement ImportanceValuesList="{x:Null}" ArrayStringOperator="Contains" BodyOperator="Contains" Criteria="Subject" ImportanceOperator="Equals" ImportanceValue="Low" StringOperator="Contains" StringValue="Incident Request" TypeOperator="Equals" TypeValue="Email" />
+          </umamf:TriggerMailFilterCollection.Filters>
+        </umamf:TriggerMailFilterCollection>
+      </umamt:NewEmailReceived.Filter>
+    </umamt:NewEmailReceived>
+    <Assign DisplayName="Assign File Headers" sap:VirtualizedContainerService.HintSize="632,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[AuditLog]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">["Incident Number, Incident Type, User Name, Content"+Environment.NewLine]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <umam:ForEachEmailConnections ConnectionAccountName="{x:Null}" Length="{x:Null}" Mailbox="{x:Null}" ManualEntryFolder="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" BrowserFolder="RPAIncidents" BrowserFolderId="AQMkADAwATM0MDAAMS02NgBkMS0yMTU4LTAwAi0wMAoALgAAA7AimbGZAkBAAK8He9PS4sDZAQBfe73Y0qUNRK3_rgpzPwaiAAAAF-xW6QAAAA==" ConnectionId="50169fa6-d19d-4953-8674-b7a8781e879b" DisplayName="For Each Email" sap:VirtualizedContainerService.HintSize="632,1424" sap2010:WorkflowViewState.IdRef="ForEachEmailConnections_1" Importance="Any" IncludeSubfolders="False" MarkAsRead="False" MaxResults="100" OrderByDate="NewestFirst" SelectionMode="Browse" UnreadOnly="False" UseConnectionService="True" WithAttachmentsOnly="False">
+      <umam:ForEachEmailConnections.Body>
+        <ActivityAction x:TypeArguments="umm:Office365Message, x:Int32">
+          <ActivityAction.Argument1>
+            <DelegateInArgument x:TypeArguments="umm:Office365Message" Name="CurrentEmail" />
+          </ActivityAction.Argument1>
+          <ActivityAction.Argument2>
+            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentEmailIndex" />
+          </ActivityAction.Argument2>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="598.4,1173.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="ummm:O365MailLocalItem" Name="DownloadedEmail" />
+              <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="ExtractedData" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <umam:DownloadEmailConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" ConnectionId="50169fa6-d19d-4953-8674-b7a8781e879b" DisplayName="Download Email" Email="[CurrentEmail]" sap:VirtualizedContainerService.HintSize="555.2,152.8" sap2010:WorkflowViewState.IdRef="DownloadEmailConnections_1" NewResult="[DownloadedEmail]" UseConnectionService="True" />
+            <uasc:AppendItemToCollection x:TypeArguments="upr:IResource" Collection="[Attachments]" DisplayName="Add Mail to Attachments List" sap:VirtualizedContainerService.HintSize="555.2,141.6" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_1" Result="[Attachments]">
+              <uasc:AppendItemToCollection.Items>
+                <scg:List x:TypeArguments="InArgument(upr:IResource)" Capacity="4">
+                  <InArgument x:TypeArguments="upr:IResource">[DownloadedEmail]</InArgument>
+                </scg:List>
+              </uasc:AppendItemToCollection.Items>
+            </uasc:AppendItemToCollection>
+            <ui:Matches FirstMatch="{x:Null}" BuilderPattern="^\[(INC\d+)\] - Incident Request - Printer Not Working" DisplayName="Get Information Items" sap:VirtualizedContainerService.HintSize="555.2,60" sap2010:WorkflowViewState.IdRef="Matches_1" Input="[CurrentEmail.Subject]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;^\\[(INC\\d+)\\] - Incident Request - Printer Not Working&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="^\[(INC\d+)\] - Incident Request - Printer Not Working" RegexOption="IgnoreCase, Compiled" Result="[ExtractedData]" />
+            <ui:ForEach x:TypeArguments="str:Match" CurrentIndex="{x:Null}" DisplayName="For Each Match" sap:VirtualizedContainerService.HintSize="555.2,609.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ExtractedData]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="str:Match">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="str:Match" Name="currentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="521.6,421.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="IncidentNumber" />
+                      <Variable x:TypeArguments="x:String" Name="IncidentType" />
+                      <Variable x:TypeArguments="x:String" Name="UserName" />
+                      <Variable x:TypeArguments="x:String" Name="Content" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:MultipleAssign DisplayName="Get Relevant Information Items" sap:VirtualizedContainerService.HintSize="478.4,210.4" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[IncidentNumber]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[currentItem.Groups(1).Value]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[IncidentType]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[currentItem.Groups(2).Value]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[UserName]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[currentItem.Groups(3).Value]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[Content]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[CurrentEmail.Body.Replace(Environment.NewLine,"&lt;break&gt;").Replace(",","&lt;comma&gt;")]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <Assign DisplayName="Create Log Entry" sap:VirtualizedContainerService.HintSize="478.4,81.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[AuditLog]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[AuditLog+String.Format("{0},{1},{2},{3}", IncidentNumber, IncidentType, UserName, Content)+Environment.NewLine]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </umam:ForEachEmailConnections.Body>
+      <umam:ForEachEmailConnections.Filter>
+        <umamf:MailFilterCollection LogicalOperator="And">
+          <umamf:MailFilterCollection.Filters>
+            <umamf:MailFilterElement DateValue="{x:Null}" Criteria="Subject" DateOperator="NewerThan" InStringValue="Incident Request" StringOperator="Contains" TypeOperator="Equals" TypeValue="Email" />
+          </umamf:MailFilterCollection.Filters>
+        </umamf:MailFilterCollection>
+      </umam:ForEachEmailConnections.Filter>
+      <umam:ForEachEmailConnections.FolderIdBackup>
+        <usau:BackupSlot x:TypeArguments="umame:ItemSelectionMode" StoredValue="Browse">
+          <usau:BackupSlot.BackupValues>
+            <scg:Dictionary x:TypeArguments="umame:ItemSelectionMode, scg:List(x:Object)" />
+          </usau:BackupSlot.BackupValues>
+        </usau:BackupSlot>
+      </umam:ForEachEmailConnections.FolderIdBackup>
+    </umam:ForEachEmailConnections>
+    <Assign DisplayName="Create Audit File Path" sap:VirtualizedContainerService.HintSize="632,81.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[AuditFilePath]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[Path.Combine("AuditData","IncidentAudit.csv")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:WriteTextFile File="{x:Null}" DisplayName="Create Audit File" FileName="[AuditFilePath]" sap:VirtualizedContainerService.HintSize="632,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[AuditLog]" />
+    <ui:PathExists Exists="{x:Null}" DisplayName="Get AuditLogFile As ILocalResource" sap:VirtualizedContainerService.HintSize="632,116" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[AuditFilePath]" PathType="File" Resource="[AuditFile]" />
+    <uasc:AppendItemToCollection x:TypeArguments="upr:IResource" Collection="[Attachments]" DisplayName="Add AuditFile As Attachment" sap:VirtualizedContainerService.HintSize="632,141.6" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_2" Result="[Attachments]">
+      <uasc:AppendItemToCollection.Items>
+        <scg:List x:TypeArguments="InArgument(upr:IResource)" Capacity="4">
+          <InArgument x:TypeArguments="upr:IResource">[AuditFile]</InArgument>
+        </scg:List>
+      </uasc:AppendItemToCollection.Items>
+    </uasc:AppendItemToCollection>
+    <umam:ReplyToEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" NewSubject="{x:Null}" ReplyAs="{x:Null}" SingleAttachment="{x:Null}" To="{x:Null}" AttachmentInputMode="Existing" Attachments="[Attachments]" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Please find in attachments, the incident audit trail.&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionId="50169fa6-d19d-4953-8674-b7a8781e879b" DisplayName="Reply To Email" Email="[receivedEmail]" sap:VirtualizedContainerService.HintSize="632,408.8" sap2010:WorkflowViewState.IdRef="ReplyToEmailConnections_1" Importance="Normal" ReplyToAll="False" SaveAsDraft="True" UseConnectionService="True">
+      <umam:ReplyToEmailConnections.AttachmentsBackup>
+        <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+          <usau:BackupSlot.BackupValues>
+            <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+          </usau:BackupSlot.BackupValues>
+        </usau:BackupSlot>
+      </umam:ReplyToEmailConnections.AttachmentsBackup>
+    </umam:ReplyToEmailConnections>
+  </Sequence>
+</Activity>

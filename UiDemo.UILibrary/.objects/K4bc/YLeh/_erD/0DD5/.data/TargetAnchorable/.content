@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="BqXLbeXoaE2dU-hb3vAbYw" DesignTimeRectangle="333, 169, 120, 23" ElementType="InputBox" FriendlyName="'editable text  cashintb'" FullSelectorArgument="&lt;ctrl automationid='cashintb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='cashintb' role='editable text' /&gt;" ScopeSelectorArgument="&lt;wnd app='uidouble.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="259, 166, 58, 26" ElementType="Text" FriendlyName="'Cash In'" FullSelectorArgument="&lt;ctrl name='Cash In' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cash In' role='text' automationid='' check:text='Cash In' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Cash In" TextMethod="AttributeText" TextSelector="&lt;ctrl role='text' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1754Y0UJDaEmzbIib9aYd-w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0MGaclzbi_k2uQ8-W_DIftg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c25606bec142ca35c76654a1fec09844.png" xmlns="">0Q_EB_wYMuU68tUh2CMJtsQ</imageRef>
+</TargetAnchorable>
